@@ -1,0 +1,182 @@
+/*==Reset CSS==*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+	background-image:url(../img/background.jpg);	
+	font-family: "Lato",sans-serif;
+}
+header
+{
+	background-color: #f2d9b7;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+ 
+}
+ul li
+{
+	padding-top: 10px;
+	display: inline-block;
+}
+li a {
+  display: block;
+  color: #55c9ef;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #e5a34a;
+}
+.row .hinh a img 
+{   height: 60px;
+	width: 100%;
+	background-position: center;
+}
+.row .menu ul li
+{
+	position: relative;
+}
+.row .menu ul li ul {
+    position: absolute;
+    padding: 5px;
+    top: 40px;
+    background-color: #f2d9b7;
+    display: none;
+}
+
+.row .menu ul li ul li {
+    padding: 15px 0 15px 0;
+}
+
+.row .menu ul li:hover ul {
+    display: block;
+}
+.ser
+{
+	padding-top: 10px;
+}
+.kinh
+{
+	height: 30px;
+	position: absolute;
+	width: 30px;
+	right: 8px;
+	bottom: 8px;
+}
+form 
+{
+	position: relative;
+}
+.row .menu
+{
+	z-index: 9999;
+}
+#carouselExampleSlidesOnly
+{
+	padding-top: 10px;
+}
+.card 
+{
+	padding-top: 20px;
+}
+.noidung {
+  padding-top: 10px;
+  color:#28d067;
+  border-bottom: 2px solid #2aaccc;
+}
+.card-deck a:hover
+{
+	
+	border-bottom: 3px solid #dddbd8;
+	border-right: 3px solid #dddbd8;
+	box-shadow: 5px 5px 5px  #dddbd8;
+}
+.card-deck .card {
+    border: none;
+}
+.card-body{
+	color: black;
+}
+.card-deck p:hover
+{
+	border-bottom-color: white;
+}
+.card-img
+{
+	width: 100%;
+}
+.card-deck a:hover
+{
+	color:#4de45b;
+}
+.card-deck a:hover .card-title
+{
+	color:#4de45b;
+}
+.card-deck a:hover .text-muted
+{
+	text-decoration: none;
+}
+.card-text1
+{
+	  color:#28d067;
+  	  border-bottom: 1px solid #353c35;
+}
+.dashed
+{
+     border-bottom: 1px dashed #353c35;
+}
+footer img 
+{
+  width: 100%;
+  height: 60px;
+  padding-top: 10px;
+}
+footer
+{
+	position: relative;
+	background-color:  #f2d9b7;
+}
+footer .row .icon
+{
+	text-align: center;
+}
+i
+{
+	font-size: 1.5em;
+}
+.fa-youtube
+{
+	color: red;
+}
+.fa-facebook-square
+{
+	color:#092bd8;
+}
+.fa-twitter-square
+{
+	color: #3a79ee;
+}
+footer a
+{
+	font-size: 0.8em;
+}
+footer .logo
+{
+    height: 84px;
+    width: 100px;
+    position: absolute;
+    left: -7px;
+    top: 15px;
+}
+footer p
+{
+	text-align: center;
+}
