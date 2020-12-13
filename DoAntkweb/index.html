@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DoAn</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style_1.css">
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="index2.html">
+</head>
+
+<body>
+    <header>
+        <div class="header-content-first">
+            <div class="shopping-icon">
+                <button type="button" class="btn btn-danger"><i class="fas fa-cart-arrow-down"></i></button>
+                <button type="button" class="btn btn-primary">Đăng nhâp</button>
+                <button type="button" class="btn btn-warning">Đăng kí</button>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="container">
+                <div class="row header-wrapper">
+                    <div class="col-sm-12 col-md-12 col-lg-2 col-xl-3 logo">
+                        <img src="images/icon.png" alt="Responsive image">
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-7 col-xl-5">
+                        <div class="input-group mb-3 search">
+                            <input type="text" class="form-control" placeholder="Bạn cần tìm gì?" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append ">
+                                <a href="#">
+                                    <span class="input-group-text search-bg" id="basic-addon2">
+                                        <i class="fas fa-search class search-icon"></i>
+                                        Tìm kiếm
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+                <div class="row">
+                    <nav class="nav_menu col-sm-12 col-md-12">
+                        <ul>
+                            <li class="home-icon">
+                                <a href="#" class="home-icon-content"><i class="fas fa-home"></i></a>
+                            </li>
+                            <li class="dropdown">
+                                <ul>
+                                    <li><a href="#" class="dropbtn"> Điện thoại</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="" class="dropbtn">Tablet</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="" class="dropbtn">Phụ kiện</a>
+                                <div class="dropdown-content">
+                                    <h2 class="company">Hãng sản xuất</h2>
+                                    <a href="#" class="content-lbl">Apple</a>
+                                    <a href="#" class="content-lbl">Samsung</a>
+                                    <a href="#" class="content-lbl">Sony</a>
+                                    <a href="#" class="content-lbl">Remax</a>
+                                    <a href="#" class="content-lbl">Transcend</a>
+                                    <a href="#" class="content-lbl">iCORE</a>
+                                    <a href="#" class="content-lbl">Pisen</a>
+                                    <a href="#" class="content-lbl">YiSon</a>
+                                    <a href="#" class="content-lbl">SanDisk</a>
+                                    <a href="#" class="content-lbl">Prolink</a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="" class="dropbtn-second">Gói cước kèm Điện thoại</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="" class="dropbtn-second"> Khuyến mãi</a>
+                                <!-- <a href="#" class="icon-menu-spec">HOT</a> -->
+                            </li>
+                            <li class="dropdown">
+                                <a href="" class="dropbtn">Tin công nghệ</a>
+                                <div class="dropdown-content">
+                                    <h2 class="company">Về Mobifone</h2>
+                                    <a href="#" class="content-lbl">Tin tức Mobifone</a>
+                                    <a href="#" class="content-lbl">Dịch vụ</a>
+                                    <a href="#" class="content-lbl">Khuyến mãi</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- slide-show -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-9 ">
+                    <div class=" slide-show">
+                        <div id="carouselExampleCaptions " class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="image1" class="active"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="image2"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="image3"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="image4"></li>
+                            </ol>
+                            <div class="carousel-inner slide-carousel">
+                                <div class="carousel-item active">
+                                    <img src="images/image1.png" class="d-block w-100" alt="image1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>First slide label</h5>
+                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/image2.png" class="d-block w-100" alt="image2">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Second slide label</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/image3.png" class="d-block w-100" alt="image3">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Third slide label</h5>
+                                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/image4.png" class="d-block w-100" alt="image4">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Third slide label</h5>
+                                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-none d-lg-block right-banner ">
+                    <a href="#">
+                        <img src="images/banner/image_banner-_1.gif" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/banner/image_banner_2.gif" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-1 -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <h3 class="category-title">Sản phẩm hot</h3>
+            </div>
+            <div class="row">
+                <div class="card-deck product-list ">
+                    <div class="col-sm-6 col-md-3 ">
+                        <div class="card product-item">
+                            <img src="images/products/image_1.png" class="card-img-top card-image" alt="image_1">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item product-name">Bphone3</li>
+                                    <li class="list-group-item product-price">
+                                        <span class="old-price">6.990.000&#8363; </span>
+                                        <span class="price"> 1.190.000 &#8363;</span>
+
+                                        <ul class="price-content">
+                                            <li> Màn hình: "6,Full HD+</li>
+                                            <li>CPU: Qualcomm Snapdragon 636,8 nhân</li>
+                                            <li>Camera: 12MP | 8MP</li>
+                                            <li>Pin: 3000 mAh</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 ">
+                        <div class="card product-item">
+                            <img src="images/products/image_2.png" class="card-img-top card-image" alt="image_1">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item product-name">Samsung Galaxy S10+ 512GB</li>
+                                    <li class="list-group-item product-price">
+                                        <span class="price"> 28.990.000 &#8363;</span>
+                                        <ul class="price-content">
+                                            <li> Màn hình: Dynamic AMOLED,6.4",Quad HD+ (2K+)</li>
+                                            <li>Hệ điều hành: Android 9.0 (Pie)</li>
+                                            <li>CPU: Exynos 9820 8 nhân 64 bit</li>
+                                            <li>Camera: chính 12MP & Phụ 12 MP , 16 MP</li>
+                                            <li>RAM: 8 GB |Bộ nhớ trong:128 GB</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 ">
+                        <div class="card product-item">
+                            <img src="images/products/image_3.png" class="card-img-top card-image" alt="image_1">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item product-name">Samsung Galaxy S10 128GB</li>
+                                    <li class="list-group-item product-price">
+                                        <span class="price"> 20.990.000 &#8363;</span>
+                                        <ul class="price-content">
+                                            <li> Màn hình: Dynamic AMOLED,6.1",Quad HD+ (2K+)</li>
+                                            <li>Hệ điều hành: Android 9.0 (Pie)</li>
+                                            <li>CPU: Exynos 9820 8 nhân 64 bit</li>
+                                            <li>Camera: chính 12MP & Phụ 12 MP , 16 MP(3 camera)</li>
+                                            <li>RAM: 8 GB |Bộ nhớ trong:128 GB</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card product-item">
+                            <img src="images/products/image_4.png" class="card-img-top card-image" alt="image_1">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item product-name">Samsung Galaxy M20</li>
+                                    <li class="list-group-item product-price">
+                                        <span class="price"> 4.990.000 &#8363;</span>
+                                        <ul class="price-content">
+                                            <li> Màn hình: PLS TFT LCD,6.3",Full HD+</li>
+                                            <li>CPU: Exynos 7904 8 nhân 64-bit</li>
+                                            <li>Camera: Chính 13 MP & Phụ 5 MP/8.0 MP</li>
+                                            <li>Pin: 5000 mAh. Có sạc nhanh</li>
+                                            <p><i class="fas fa-gift"></i><b>CÓ 1 KHUYẾN MÃI ĐI KÈM</b></p>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card product-item">
+                            <img src="images/products/image_6.png" class="card-img-top card-image" alt="image_1">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item product-name">Samsung Galaxy A30 32GB</li>
+                                    <li class="list-group-item product-price">
+                                        <span class="price"> 4.990.000 &#8363;</span>
+                                        <ul class="price-content">
+                                            <li> Màn hình: Super AMOLED,6.4",Quad HD+ (2K+)</li>
+                                            <li>Hệ điều hành: Android 9.0 (Pie)</li>
+                                            <li>CPU: Exynos 9820 8 nhân 64 bit</li>
+                                            <li>Camera: chính 25MP & Phụ 8 MP ,5 MP</li>
+                                            <li>Camera trước: 25MP</li>
+                                            <li>CPU: Exynos 9610 8 nhân 64-bit</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card product-item">
+                            <img src="images/products/image_7.png" class="card-img-top card-image" alt="image_1">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item product-name">Samsung Galaxy A20</li>
+                                    <li class="list-group-item product-price">
+                                        <span class="price"> 4.190.000 &#8363;</span>
+                                        <ul class="price-content">
+                                            <li> Màn hình: Super AMOLED,6.4",Quad HD+ (2K+)</li>
+                                            <li>Hệ điều hành: Android 9.0 (Pie)</li>
+                                            <li>CPU: Exynos 9820 8 nhân 64 bit</li>
+                                            <li>Camera sau: 13.0 MP + 5.0 MP</li>
+                                            <li>Camera trước: 8 MP</li>
+                                            <li>CPU: Exynos 7884 8 nhân (2 nhân 1.6 Ghz & 6 nhân 1.35 Ghz) </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card product-item">
+                            <img src="images/products/image_8.png" class="card-img-top card-image" alt="image_1">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item product-name">Samsung Galaxy A70</li>
+                                    <li class="list-group-item product-price">
+                                        <span class="price"> 9.290.000 &#8363;</span>
+                                        <ul class="price-content">
+                                            <li> Màn hình: Super AMOLED,6.7",Full HD+</li>
+                                            <li>Hệ điều hành: Android 9.0 (Pie)</li>
+                                            <li>CPU: Exynos 9820 8 nhân 64 bit</li>
+                                            <li>Camera sau: Chính 32.0 MP & Phụ 8 MP,5MP</li>
+                                            <li>Camera trước: 32 MP</li>
+                                            <li>CPU: Exynos 7Snapdragon 675 8 nhân 64-bit </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card product-item">
+                            <img src="images/products/image_6.png" class="card-img-top card-image" alt="image_1">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item product-name">Samsung Galaxy A10</li>
+                                    <li class="list-group-item product-price">
+                                        <span class="price"> 3.090.000 &#8363;</span>
+
+                                        <ul class="price-content">
+                                            <li> Màn hình: Super AMOLED,6.2", HD+</li>
+                                            <li>Hệ điều hành: Android 9.0 (Pie)</li>
+                                            <li>CPU: Exynos 9820 8 nhân 64 bit</li>
+                                            <li>Camera sau: 13.0 MP</li>
+                                            <li>Camera trước: 5 MP</li>
+                                            <li>CPU: Exynos 7884 8 nhân </li>
+                                            <p><i class="fas fa-gift"></i><b>CÓ 1 KHUYẾN MÃI ĐI KÈM</b></p>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </section>
+
+    <!-- section-2 -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <h3 class="category-title">Tablet</h3>
+            </div>
+            <div class="row">
+                <div class="card-deck">
+                    <div class="col-sm-6 col-md-3 card-b">
+                        <a href="index2.html">
+                            <div class="card">
+                                <img src="images/tablets/tablet_1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <ul class="list-group list-group-flush ">
+                                        <li class="list-group-item product-name-2">ASUSZENPAD 7.0(Z370CG)</li>
+                                        <li class="list-group-item product-price-2">
+                                            <span class="price"> 4.090.000 &#8363;</span>
+
+                                            <ul class="price-content">
+                                                <li> Màn hình: 7 inch</li>
+                                                <li>CPU: 1.2Ghz ;RAM 2G-ROM 16G</li>
+                                                <li>Camera : 8.0/2.0MP </li>
+                                                <li>Kết nối: 3G, Wifi,Bluetooth</li>
+                                                <p><i class="fas fa-gift"></i><b>CÓ 1 KHUYẾN MÃI ĐI KÈM</b></p>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 card-b">
+                        <div class="card">
+                            <img src="images/tablets/tablet_2.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item product-name-2">SAMSUNG GALAXY TAB E T561</li>
+                                    <li class="list-group-item product-price-2">
+                                        <span class="price"> 4.990.000 &#8363;</span>
+
+                                        <ul class="price-content">
+                                            <li> Màn hình: WXGA TFT, 9.6"</li>
+                                            <li>CPU: Spreadtrum 4 nhân, 1.3 Ghz</li>
+                                            <li>Camera : 2.0/5.0 MP </li>
+                                            <li>PIN 5000 mAh</li>
+                                            <p><i class="fas fa-gift"></i><b>CÓ 1 KHUYẾN MÃI ĐI KÈM</b></p>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 card-b">
+                        <div class="card">
+                            <img src="images/tablets/tablet_3.jpeg" class="card-img-top " alt="... ">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item product-name-2">IPAD MINI 4 WIFI CELLULAR 128GB</li>
+                                    <li class="list-group-item product-price-2">
+                                        <span class="old-price"> 13.990.000 &#8363;</span>
+                                        <span class="price"> 13.490.000 &#8363;</span>
+
+                                        <ul class="price-content">
+                                            <li> Màn hình: 7.9"</li>
+                                            <li>CPU: 2 nhân RAM: 2GB, ROM: 128GB</li>
+                                            <li>Camera sau: 8.0/1.2 MP </li>
+                                            <li>Pin: 19.1 Wh (Khoảng 5124 mAh)</li>
+                                            <p><i class="fas fa-gift"></i><b>CÓ 1 KHUYẾN MÃI ĐI KÈM</b></p>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 card-b">
+                        <div class="card ">
+                            <img src="images/tablets/tablet_3.jpeg" class="card-img-top " alt="... ">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item product-name-2">IPAD WIFI CELLULAR 128GB</li>
+                                    <li class="list-group-item product-price-2">
+                                        <span class="old-price"> 14.990.000 &#8363;</span>
+                                        <span class="price"> 14.490.000 &#8363;</span>
+
+                                        <ul class="price-content">
+                                            <li> Màn hình: 9.7"</li>
+                                            <li>CPU: 2 nhân RAM: 2GB, ROM: 128GB</li>
+                                            <li>Camera sau: 8.0/1.2 MP </li>
+                                            <li>Pin: 32.4 Wh (Khoảng 86000 mAh)</li>
+                                            <p><i class="fas fa-gift"></i><b>CÓ 1 KHUYẾN MÃI ĐI KÈM</b></p>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-info-wrapper">
+            <div class="container">
+                <div class="row footer-info ">
+                    <div class=" col-md-3 d-none d-lg-block info-link ">
+                        <h3>Về công ty</h3>
+                        <ul class="">
+                            <li><a href="">Giới thiệu</a></li>
+                            <li><a href="">Tuyển dụng</a></li>
+                            <li><a href="">Hệ thống cửa hàng</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 d-none d-lg-block info-link">
+                        <h3>Chính sách và Hỗ trợ</h3>
+                        <ul class="f-list">
+                            <li><a href="">Chính sách-Bảo mật</a></li>
+                            <li><a href="">Giao hàng</a></li>
+                            <li><a href="">Thanh toán</a></li>
+                            <li><a href="">Bảo hành-Đổi trả</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 d-none d-lg-block footer-info-link">
+                        <h3>Dịch vụ</h3>
+                        <ul class="f-list">
+                            <li><a href="">Internet & Data</a></li>
+                            <li><a href="">Giáo dục</a></li>
+                            <li><a href="">Giải trí</a></li>
+                            <li><a href="">Tiện ích</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 d-none d-lg-block footer-promotion">
+                        <a href="#">
+                            <img src="images/4g.png" alt="4g" class="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content-wrapper">
+            <div class="container">
+                <div class="row footer-content">
+                    <div class="col-sm-12 col-md-4 footer-logo-image">
+                        <a href="#">
+                            <img src="images/icon.png" alt="footer-logo">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        <p class="element-type">Bản quyền 2016 Công ty Cổ phần dịch vụ gia tăng MobiFone - MM18, Trường Sơn, Phường 15, Quận 10, TP.HCM<br> GCNĐKDN số 0311719703 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 13/04/2012
+                            <br> Tel: 0932.95.39.39 Email: <a href="mailto:hotro@mobifoneplus.com.vn" class="element-type">
+                                hotro@mobifoneplus.com.vn</a><br>
+                            <!--Đang online: <span class="lbl-as-link">138</span> | Lượt truy cập: <span class="lbl-as-link">510644052</span>-->
+                        </p>
+                    </div>
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="boostrap/js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
